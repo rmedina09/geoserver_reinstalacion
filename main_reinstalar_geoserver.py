@@ -8,9 +8,13 @@ import time
 __author__="Raúl Medina Peña"
 
 #Variables acceso del Geoserver
+#Usuario del geoserver
 USUARIO        = 'admin'
+#Contraseña del usuario en el geoserver
 PASSW          = 'geoserver'
+#Direccion del geoserver
 URL_GEOSERVER  = 'http://localhost:8080/geoserver_try'
+#Direcciones de de nuestra informacion del GEOSERVER a respaldar
 PATH_WORKSPACE = '/home/rmedina/RESPALDOS/respaldo_ACTUAL/ServerData/GeoserverCenapredData/workspaces/'
 PATH_LAYERS    = '/home/rmedina/RESPALDOS/respaldo_ACTUAL/ServerData/GeoserverCenapredLayers/'
 PATH_STYLES    = '/home/rmedina/RESPALDOS/respaldo_ACTUAL/ServerData/GeoserverCenapredData/workspaces/cen/styles/'
