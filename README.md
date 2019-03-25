@@ -19,5 +19,5 @@ El programa se compone de 4 funciones importantes:
    * Crear los _workspaces_ para después poder crear sus capas y sus estilos correspondientes  
      usando la función __create_workspaces_geoserver__
    * Poner las capas (layers), esto es por medio de la función __put_layers_geoserver__
-   * Poner los estilos (styles) que afectan a cada capa, utilizando la función __put_styles_geoserver__
+   * Poner los estilos (styles) que afectan a cada capa, utilizando la función __put_styles_geoserver__  
      (NOTA: aun no se pueden asignar los estilos directamente con una petición REST a GEOSERVER.
