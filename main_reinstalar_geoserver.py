@@ -114,8 +114,8 @@ def get_all_styles(path_resource):
 
 if __name__ == "__main__":
 	clean_geoserver(USUARIO, PASSW, URL_GEOSERVER)
-	#create_workspaces_geoserver(USUARIO, PASSW, URL_GEOSERVER, PATH_WORKSPACE)
-	#put_layers_geoserver(USUARIO, PASSW, URL_GEOSERVER, PATH_LAYERS)
-	#put_styles_geoserver(USUARIO, PASSW, URL_GEOSERVER, PATH_STYLES)
+	create_workspaces_geoserver(USUARIO, PASSW, URL_GEOSERVER, PATH_WORKSPACE)
+	put_layers_geoserver(USUARIO, PASSW, URL_GEOSERVER, PATH_LAYERS)
+	put_styles_geoserver(USUARIO, PASSW, URL_GEOSERVER, PATH_STYLES)
 	
 	
